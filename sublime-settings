@@ -1,0 +1,32 @@
+// Settings in here override those in "Default/Preferences.sublime-settings",
+// and are overridden in turn by syntax-specific settings.
+{
+ "color_scheme": "Packages/Color Scheme - Default/Mariana.sublime-color-scheme",
+ "default_line_ending": "unix",
+ "font_face": "",
+ "font_size": 16,
+ "ignored_packages":
+ [
+  "Markdown",
+  "Vintage",
+],
+ "show_encoding": true,
+ "show_line_endings": true,
+ "smart_indent": true,
+ "tab_completion": true,
+ "theme": "Default Dark.sublime-theme",
+ "translate_tabs_to_spaces": true,
+ "update_check": false,
+ "use_tab_stops": true,
+ "word_wrap": "auto",
+ "wrap_width": 100,
+
+ //行底部的内填充 数字大小就是行间距
+ "line_padding_bottom": 2, 
+ //行顶部的内填充 数字大小就是行间距
+ "line_padding_top": 2,
+ // 行号边栏和文字的间距 
+ "margin": 4,
+ // 关闭更新检查
+ /*"update_check": false*/
+}
