@@ -5,7 +5,7 @@ set nu       " 显示行号
 " theme
 syntax on    " 打开语法高亮
 colorscheme onedark
-"set background=dark
+set conceallevel=2   " 让隐藏字符完全隐藏
 
 
 " tab and space
@@ -16,11 +16,11 @@ set shiftwidth=4   " 在使用>缩进的时候使用4个空格
 
 
 set noswapfile  " 不保留.swap文件
-set backspace=2
+set backspace=2 " 开启退格键删除
 
 " copy and paste
-"set paste
-set clipboard^=unnamed,unnamedplus  " 与系统的复制粘打通
+" set paste
+set clipboard^=unnamed,unnamedplus  " 与系统剪切板打通
 
 
 " split window
@@ -49,11 +49,12 @@ set scrolloff=3
 set showmode     " 显示当前在什么模式下
 
 
-
 " keymap
 let mapleader=','
 map <C-q>  ,cc
 
+
+" Airline
 let g:airline_theme='angr' 
 
 " complete
@@ -67,8 +68,7 @@ let g:indentLine_enabled = 1
 " comment
 let g:NERDSpaceDelims = 1
 let g:NERDCompactSexyComs = 1
-" 按行对齐注释分隔符左对齐，而不是按代码缩进
-let g:NERDDefaultAlign = 'left'
+let g:NERDDefaultAlign = 'left'   " 按行对齐注释分隔符左对齐，而不是按代码缩进
 
 
 " jedi
