@@ -1,14 +1,15 @@
-alias sublime="'/Applications/Sublime Text.app/Contents/SharedSupport/bin/subl'"
+# alias
 alias ll='ls -al'
-alias jump='ssh dingshuhao@jump.p1staff.com'
 alias sed='gsed'
 alias awk='gawk'
 alias gs='git status'
 alias gc='git checkout'
+alias gm='git commit -m'
+alias sublime="'/Applications/Sublime Text.app/Contents/SharedSupport/bin/subl'"
+
+alias jump='ssh dingshuhao@jump.p1staff.com'
 
 # 修改终端提示符颜色
-
-
 # Tell ls to be colourful
 export CLICOLOR=1
 
