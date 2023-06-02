@@ -18,20 +18,14 @@ source ~/.zsh/zsh-autosuggestions/zsh-autosuggestions.zsh
 # export HOMEBREW_BOTTLE_DOMAIN=https://mirrors.aliyun.com/homebrew/homebrew-bottles
 
 
-# if [[ -r "${XDG_CACHE_HOME:-$HOME/.cache}/p10k-instant-prompt-${(%):-%n}.zsh" ]]; then
-#   source "${XDG_CACHE_HOME:-$HOME/.cache}/p10k-instant-prompt-${(%):-%n}.zsh"
-# fi
 
 # source /usr/local/share/zsh-syntax-highlighting/zsh-syntax-highlighting.zsh
 # source /usr/local/share/zsh-autosuggestions/zsh-autosuggestions.zsh
 # source /usr/local/share/powerlevel11k/powerlevel10k.zsh-theme
 
-# To customize prompt, run `p10k configure` or edit ~/.p10k.zsh.
-# [[ ! -f ~/.p10k.zsh ]] || source ~/.p10k.zsh
 
 # export PATH="/usr/local/opt/binutils/bin:$PATH"
 
-# eval "$(starship init zsh)"
 
 # export PATH=/usr/local/vim9/bin:$PATH
 
