@@ -44,4 +44,10 @@ export PYSPARK_DRIVER_PYTHON=/usr/bin/python3
 export PATH="/usr/local/texlive/2020/bin:$PATH"
 export PATH="/usr/local/opt/node@12/bin:$PATH"   
 
+# ruby
+export PATH="/usr/local/opt/ruby/bin:$PATH"  
+export PATH="/usr/local/lib/ruby/gems/2.7.0/bin:$PATH"
 
+export HOMEBREW_BOTTLE_DOMAIN=https://mirrors.aliyun.com/homebrew/homebrew-bottles
+
+export PATH=/usr/local/vim9/bin:$PATH 
