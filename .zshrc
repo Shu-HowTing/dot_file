@@ -26,7 +26,7 @@ function git_branch {
  }
 setopt prompt_subst
 # left
-PROMPT='white@%m %F{117}%2~ |%f%F{77}$(git_branch)%f ❯ '
+PROMPT='white@%m %F{117}%2~ ‖%f%F{77}$(git_branch)%f ❯ '
 # right
 RPROMPT='⏱  %F{67}%T%f'
 

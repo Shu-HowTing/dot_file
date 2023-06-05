@@ -46,7 +46,7 @@ filetype plugin on
 set cursorline   " 显示游标所在行的下划线
 set linebreak    " 换行的时候不切割一个完整的单词
 set scrolloff=3  
-set showmode     " 显示当前在什么模式下
+set noshowmode   " 不显示当前在什么模式下 if airline is installed
 
 
 " keymap
