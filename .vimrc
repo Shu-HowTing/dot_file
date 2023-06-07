@@ -63,7 +63,7 @@ let g:indentLine_char = '┊'
 let g:indentLine_enabled = 1
 
 
-" comment
+" nerdcommenter
 let g:NERDSpaceDelims = 1
 let g:NERDCompactSexyComs = 1
 let g:NERDDefaultAlign = 'left'   " 按行对齐注释分隔符左对齐，而不是按代码缩进
@@ -76,6 +76,11 @@ let g:jedi#rename_command = "<leader>r"
 let g:jedi#documentation_command = "K"
 
 
+" vim-snippets
+let g:UltiSnipsSnippetDirectories=["UltiSnips", "snippet"]    
+
+
+
 call plug#begin()
   "Plug 'Valloric/YouCompleteMe'
   Plug 'preservim/nerdtree'
@@ -85,6 +90,8 @@ call plug#begin()
   Plug 'preservim/nerdcommenter'
   Plug 'davidhalter/jedi-vim'
   Plug 'jistr/vim-nerdtree-tabs'
+  Plug 'SirVer/ultisnips'
+  Plug 'honza/vim-snippets'
 call plug#end()
 
 
