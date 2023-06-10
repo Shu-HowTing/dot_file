@@ -63,21 +63,21 @@ let g:indentLine_char = '┊'
 let g:indentLine_enabled = 1
 
 
-" nerdcommenter
-let g:NERDSpaceDelims = 1
-let g:NERDCompactSexyComs = 1
-let g:NERDDefaultAlign = 'left'   " 按行对齐注释分隔符左对齐，而不是按代码缩进
+" " nerdcommenter
+" let g:NERDSpaceDelims = 1
+" let g:NERDCompactSexyComs = 1
+" let g:NERDDefaultAlign = 'left'   " 按行对齐注释分隔符左对齐，而不是按代码缩进
 
 
-" jedi
-let g:jedi#goto_command = "<leader>d"
-let g:jedi#goto_assignments_command = "<leader>g"
-let g:jedi#rename_command = "<leader>r"
-let g:jedi#documentation_command = "K"
+" " jedi
+" let g:jedi#goto_command = "<leader>d"
+" let g:jedi#goto_assignments_command = "<leader>g"
+" let g:jedi#rename_command = "<leader>r"
+" let g:jedi#documentation_command = "K"
 
 
-" vim-snippets
-let g:UltiSnipsSnippetDirectories=["UltiSnips", "snippet"]    
+" " vim-snippets
+" let g:UltiSnipsSnippetDirectories=["UltiSnips", "snippet"]    
 
 
 
